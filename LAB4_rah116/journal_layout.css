@@ -1,0 +1,48 @@
+
+.firstsection{
+    background-color:#A8F0F0;
+    
+    
+}
+.firstsection h2{
+    font-size:14pt;
+}
+
+.secondsection,.thirdsection{
+    border:4px solid  #C2E9E9 ;
+    background-color:#E8FBFB;
+    padding:5px;
+    margin-top:10px;
+    overflow:auto;
+}
+
+.secondsection h2 span,.thirdsection h2 span{
+    border-bottom: 2px dashed blue ;
+}
+.allsections{
+    border:10px solid white;
+    background-color:white;
+    margin: auto;
+    width: 60%;
+    
+}
+
+.overall{
+    background-image:url("images/background.gif");
+}
+img.img{
+    float:right;
+}
+nav{
+    float:left;
+    width:150px;
+    border: 4px solid  #40bebe ;
+    margin-right:2px;
+    background-color:#65d4d4;
+}
+main{
+    margin-left:160px;
+}
+body{
+    color:#067979 ;
+}
