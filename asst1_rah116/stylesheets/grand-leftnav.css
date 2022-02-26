@@ -1,0 +1,52 @@
+Header{
+    background-color: #72246C;
+    width:100%;
+}
+Footer{
+    background-color: #722b24;
+    text-align: center;
+}
+main{
+    display:flex;
+    overflow:auto;
+    width:100%;
+}
+
+#leftsidenav{
+    background-color: #24722b;
+    width:10%;
+   
+}
+#leftsidenav a:hover{
+    color:orange;
+}
+#rightSidebar{
+    width:20%;
+    
+}
+#rightSidebar h3{
+    color:#246c72;
+}
+
+#MainColumn{
+    width:70%;
+    padding-left: 5px;
+}
+.performance-table,th, td{
+    border: 1px solid;
+}
+.performance-table td:first-child {
+    text-align: center;
+}
+tr:nth-child(odd){
+    background:#CCC;
+}
+.highlight{
+    font-weight: bold;
+}
+#social-bar{
+    position:fixed;
+    float:right;
+    justify-content: flex-start;
+    clear:both;
+}
