@@ -2,12 +2,14 @@ header{
     background-color: #72246C;
     width:100%;
 }
+
 footer{
     padding:10px;
     background-color: #722b24;
     text-align: center;
     color:white;
 }
+
 main{
     display:flex;
     overflow:auto;
@@ -16,48 +18,80 @@ main{
 
 #leftsidenav{
     background-color: #24722b;
-    width:10%;
+    width:12.5%;
+    color:white;
+}
+
+ul {
+    list-style-type: none;
    
 }
-#leftsidenav a:hover{
-    color:orange;
+#leftsidenav a{
+    color:white;
+    padding-bottom: 20px ;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    padding-right: 20px;
 }
+
+#leftsidenav a:hover{
+    text-decoration: underline;
+    text-decoration-color:orange;
+}
+
 #rightSidebar{
     padding:15px;
     border-left: 3px solid;
     width:15%;
+    
 }
+
 #rightSidebar h3{
     color:#246c72;
 }
 
 #MainColumn{
     width:75%;
-    padding-left: 5px;
+    padding-left: 20px;
+    padding-right:30px;
 }
+
 .performance-table,th, td{
     border: 1px solid;
 }
+
 .performance-table td:first-child {
     text-align: center;
 }
+
 tr:nth-child(odd){
     background:#CCC;
 }
+
 .highlight{
     font-weight: bold;
 }
+
 #social-bar{
     background-color: black;
-    margin-right: 90.4%;
+    margin-right: 80%;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    margin-left: 0.5%;
+    
 }
+
 #social-bar img{
-    width:  37px;
-    height: 37px;
+    width:  44px;
+    height: 40px;
     background-size: cover;
+    border-radius: 50%; 
 }
+
 .tickets img{
     width:  200px;
-    height: 300px;
+    height: 250px;
     background-size: cover;
 }
